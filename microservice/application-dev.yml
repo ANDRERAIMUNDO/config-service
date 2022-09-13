@@ -1,0 +1,13 @@
+
+spring:
+ application:
+  name: microservice
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'
+microservice:
+  micro: "dev"
+  default-value: "apresentacao dev"
